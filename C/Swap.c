@@ -1,6 +1,5 @@
 
-#include <stdio.h> 
-
+#include <stdio.h>
 int main() 
 { 
 	int x, y; 
@@ -8,13 +7,13 @@ int main()
 	scanf("%d", &x); 
 	printf("\nEnter Value of y "); 
 	scanf("%d", &y); 
-	
 	//swap without using third variable.
 	//Use only mathematical operations.
-	x = x + y;
-	y = x - y;
-	x = x - y;
-	
+	// using * and /
+	x=x*y;    
+        y=x/y;   
+        x=x/y;   
+       system("cls");  
 	printf("\nAfter Swapping: x = %d, y = %d", x, y); 
 	return 0; 
 } 
